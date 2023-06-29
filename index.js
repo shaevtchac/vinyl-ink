@@ -1,19 +1,3 @@
-import { Splide } from '@splidejs/splide';
-
-const splide = new Splide('#cross-sell', { pagination: false });
-splide.mount();
-
-const instructionsCarousel = new Splide('#instructions', {
-  classes: {
-    arrows: 'splide__arrows arrows',
-    arrow: 'splide__arrow arrow',
-    prev: 'splide__arrow__prev prev',
-    next: 'splide__arrow__next next',
-    pagination: 'splide__pagination pagination',
-    page: 'splide__pagination__page page',
-  },
-});
-instructionsCarousel.mount();
 
 // _______________________________________________________________ animations _______________________________________________________________
 

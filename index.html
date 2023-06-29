@@ -16,7 +16,7 @@
 </head>
 
 <body class="mx-auto max-w-[1300px] font-montserrat text-[clamp(1rem,0.95rem+0.25vw,1.25rem)]">
-  <!--                                                                    x
+  <!--                                                                      x
                                                                             x
                                                                             x
                                                                             x
@@ -28,7 +28,7 @@
       <img src="img/11no1-logo.png" alt="logo" class="absolute right-2 top-1/2 -translate-y-1/2 h-[150%]">
     </div>
     <div class="grid lg:grid-cols-2">
-      <div class="relative flex">
+      <div data-animation="fade-from-left" class="relative flex">
         <img src="img/12.jpg" alt="GOTOWA NA WINYLOWY POŁYSK DO 16H" class="object-cover w-full">
         <p
           class="hidden absolute left-4 bottom-4 right-4 text-[2em]  font-bold [text-shadow:-1px_-1px_0_#fff,1px_-1px_0_#fff,-1px_1px_0_#fff,1px_1px_0_#fff]">
@@ -36,8 +36,8 @@
           NA WINYLOWY POŁYSK DO 16H**
         </p>
       </div>
-      <div class="font-oswald text-white text-right relative bg-secondary p-[8%] order-first lg:order-last">
-        <img src="img/13.jpg" alt="woman lipstick" class="w-full object-cover">
+      <div data-animation="fade-from-right" class="font-oswald text-white text-right relative bg-secondary p-[8%] order-first lg:order-last">
+        <img src="img/13.jpg" alt="woman lipstick" class="w-full object-cover ">
         <div class="absolute bottom-[10%]  right-[13%]">
           <img src="img/14veg-logo.png" alt="wegańska formuła logo" class="ml-auto mb-2">
           <p class=" text-[2em] ">NOWOŚĆ</p>
@@ -47,14 +47,14 @@
     </div>
 
   </div>
-  <!--                                                                    xxxxx
+  <!--                                                                      xxxxx
                                                                                 x
                                                                             xxxxx
                                                                             x
                                                                             xxxxx
 -->
   <div class="w-11/12 mx-auto mt-20">
-    <p class="h2"><span class="font-bold">Super Stay vinyl ink</span> od Maybelline New York</p>
+    <p data-animation="fade-in" data-delay="0s" data-duration="1s"  class="h2"><span class="font-bold">Super Stay vinyl ink</span> od Maybelline New York</p>
     <p class="text-center my-4">Odkryj zupełnie nowe, winylowe wykończenie ust ze szminką Super Stay Vinyl Ink od
       Maybelline
       New York!
@@ -63,16 +63,19 @@
       To szminka, która zmienia reguły gry!</p>
 
     <div class="flex flex-wrap justify-center gap-1 text-center uppercase font-bold">
-      <div class="min-w-[240px] max-w-[390px] flex-1">
-        <img src="img/20.jpg" alt="lipstick">
+
+      <div data-animation="fade-from-bottom"  class="min-w-[240px] max-w-[390px] flex-1 overflow-hidden">
+        <img class="hover:scale-110 transition-transform duration-500" src="img/20.jpg" alt="lipstick" >
         <p class=" my-4 ">komfort noszenia</p>
       </div>
-      <div class="min-w-[240px] max-w-[390px] flex-1">
-        <img src="img/21.jpg" alt="aplikator">
+
+      <div data-animation="fade-from-bottom" data-delay="800ms" class="min-w-[240px] max-w-[390px] flex-1 overflow-hidden">
+        <img class="hover:scale-110 transition-transform duration-500" src="img/21.jpg" alt="aplikator">
         <p class=" my-4 ">precyzyjny aplikator</p>
       </div>
-      <div class="min-w-[240px] max-w-[390px] flex-1">
-        <img src="img/22.jpg" alt="formuła z aloesem">
+
+      <div data-animation="fade-from-bottom" data-delay="1100ms" class="min-w-[240px] max-w-[390px] flex-1 overflow-hidden">
+        <img class="hover:scale-110 transition-transform duration-500" src="img/22.jpg" alt="formuła z aloesem">
         <p class=" my-4 ">Formuła z aloesem i witaminą E</p>
       </div>
     </div>
@@ -80,7 +83,7 @@
 
 
   </div>
-  <!--                                                                    xxxxx
+  <!--                                                                      xxxxx
                                                                                 x
                                                                             xxxxx
                                                                                 x
@@ -88,67 +91,67 @@
 -->
   <div class="mt-20">
     <div class="grid md:grid-cols-2">
-      <div class="bg-primary grid place-items-center aspect-square p-[5%]">
+      <div data-animation="fade-from-left" class="bg-primary grid place-items-center aspect-square p-[5%]">
         <img src="img/30.png" alt="winylowy połysk napis">
       </div>
-      <div class="aspect-square">
-        <img src="img/31.jpg" alt="usta szminka" class="w-full h-full object-cover">
+      <div data-animation="fade-from-right" class="aspect-square overflow-hidden">
+        <img src="img/31.jpg" alt="usta szminka" class="hover:scale-110 transition-transform duration-500 w-full h-full object-cover">
       </div>
-      <div class="aspect-square order-4">
-        <img src="img/32.jpg" alt="usta szminka" class="w-full h-full object-cover">
+      <div data-animation="fade-from-left" class="aspect-square order-4 overflow-hidden">
+        <img src="img/32.jpg" alt="usta szminka" class="hover:scale-110 transition-transform duration-500 w-full h-full object-cover">
       </div>
-      <div class="bg-secondary grid place-items-center aspect-square p-[5%] order-3 md:order-4">
+      <div data-animation="fade-from-right" class="bg-secondary grid place-items-center aspect-square p-[5%] order-3 md:order-4">
         <img src="img/33.png" alt="trwałość do 16h napis">
       </div>
     </div>
   </div>
-  <!--                                                                    x   x
+  <!--                                                                      x   x
                                                                             x   x
                                                                             xxxxx
                                                                                 x
                                                                                 x
 -->
   <div class="w-11/12 mx-auto mt-20">
-    <p class="h2 mb-10"><strong>POZNAJ CAŁĄ GAMĘ VINYL INK</strong> I ZNAJDŹ SWÓJ ODCIEŃ
+    <p data-animation="fade-in" data-delay="0s" data-duration="1s" class="h2 mb-10"><strong>POZNAJ CAŁĄ GAMĘ VINYL INK</strong> I ZNAJDŹ SWÓJ ODCIEŃ
     </p>
 
     <div class="flex flex-wrap gap-1 justify-center font-oswald text-white text-center">
 
-      <div class="min-w-[210px] max-w-[280px] flex-1">
-        <img src="img/41.jpg" alt="PEACHY" class="w-full h-auto">
-        <div class="bg-black py-2 ">
+      <div data-animation="fade-from-bottom"  class="min-w-[210px] max-w-[280px] flex-1 overflow-hidden">
+        <img src="img/41.jpg" alt="PEACHY" class="w-full h-auto hover:scale-110 transition-transform duration-500">
+        <div class="bg-black py-2 relative">
           <p>15 - PEACHY</p>
         </div>
         <img src="img/411.jpg" class="w-full h-auto" alt="PEACHY"><button>ZOBACZ PRODUKT</button>
       </div>
 
-      <div class="min-w-[210px] max-w-[280px] flex-1">
-        <img src="img/42.jpg" alt="coy" class="w-full h-auto">
-        <div class="bg-black py-2 ">
+      <div data-animation="fade-from-bottom" data-delay="750ms" class="min-w-[210px] max-w-[280px] flex-1 overflow-hidden">
+        <img src="img/42.jpg" alt="coy" class="w-full h-auto hover:scale-110 transition-transform duration-500">
+        <div class="bg-black py-2 relative">
           <p>20 - COY</p>
         </div>
         <img src="img/421.jpg" class="w-full h-auto" alt="coy"><button>ZOBACZ PRODUKT</button>
       </div>
 
-      <div class="min-w-[210px] max-w-[280px] flex-1">
-        <img src="img/43.jpg" alt="UNRIVALED" class="w-full h-auto">
-        <div class="bg-black py-2 ">
+      <div data-animation="fade-from-bottom" data-delay="1s" class="min-w-[210px] max-w-[280px] flex-1 overflow-hidden">
+        <img src="img/43.jpg" alt="UNRIVALED" class="w-full h-auto hover:scale-110 transition-transform duration-500">
+        <div class="bg-black py-2 relative">
           <p>30 - UNRIVALED</p>
         </div>
         <img src="img/431.jpg" class="w-full h-auto" alt="UNRIVALED"><button>ZOBACZ PRODUKT</button>
       </div>
 
-      <div class="min-w-[210px] max-w-[280px] flex-1">
-        <img src="img/44.jpg" alt="CHEEKY" class="w-full h-auto">
-        <div class="bg-black py-2 ">
+      <div data-animation="fade-from-bottom" data-delay="1250ms" class="min-w-[210px] max-w-[280px] flex-1 overflow-hidden">
+        <img src="img/44.jpg" alt="CHEEKY" class="w-full h-auto hover:scale-110 transition-transform duration-500">
+        <div class="bg-black py-2 relative">
           <p>35 - CHEEKY</p>
         </div>
         <img src="img/441.jpg" class="w-full h-auto" alt="CHEEKY"><button>ZOBACZ PRODUKT</button>
       </div>
 
-      <div class="min-w-[210px] max-w-[280px] flex-1">
-        <img src="img/45.jpg" alt="WICKED" class="w-full h-auto">
-        <div class="bg-black py-2 ">
+      <div data-animation="fade-from-bottom" data-delay="1500ms" class="min-w-[210px] max-w-[280px] flex-1 overflow-hidden">
+        <img src="img/45.jpg" alt="WICKED" class="w-full h-auto hover:scale-110 transition-transform duration-500">
+        <div class="bg-black py-2 relative">
           <p>50 - WICKED</p>
         </div>
         <img src="img/451.jpg" class="w-full h-auto" alt="WICKED"><button>ZOBACZ PRODUKT</button>
@@ -161,35 +164,39 @@
 
 
   </div>
-  <!--                                                                    xxxxx
+  <!--                                                                      xxxxx
                                                                             x
                                                                             xxxxx
                                                                                 x
                                                                             xxxxx
 -->
   <div class="bg-[url(img/50bg.jpg)] bg-no-repeat bg-center bg-cover mt-20 text-white font-oswald pt-8">
-    <p class="h2 mb-8 font-normal">SHAKE, SWIPE, GO!</p>
+    <p data-animation="fade-in" data-delay="0s" data-duration="1s" class="h2 mb-8 font-normal">SHAKE, SWIPE, GO!</p>
 
     <div class="flex flex-wrap justify-center gap-2 w-10/12 mx-auto">
-      <div class="min-w-[240px] max-w-[280px] flex-1">
-        <img src="img/51.jpg" alt="wstrząsanie opakowaniem">
+
+      <div data-animation="fade-from-bottom"  class="min-w-[240px] max-w-[280px] flex-1 overflow-hidden">
+        <img src="img/51.jpg" alt="wstrząsanie opakowaniem" class="hover:scale-110 transition-transform duration-500">
         <p class="mt-4">Krok 1</p>
         <p class="font-light mb-5">Wstrząśnij opakowanie
           przed użyciem.</p>
       </div>
-      <div class="min-w-[240px] max-w-[280px] flex-1">
-        <img src="img/52.jpg" alt="wstrząsanie opakowaniem">
+
+      <div data-animation="fade-from-bottom" data-delay="750ms" class="min-w-[240px] max-w-[280px] flex-1 overflow-hidden">
+        <img src="img/52.jpg" alt="wstrząsanie opakowaniem" class="hover:scale-110 transition-transform duration-500">
         <p class="mt-4">Krok 2</p>
         <p class="font-light mb-5">Nałóż produkt na usta za
           pomocą precyzyjnego aplikatora.</p>
       </div>
-      <div class="min-w-[240px] max-w-[280px] flex-1">
-        <img src="img/53.jpg" alt="wstrząsanie opakowaniem">
+
+      <div data-animation="fade-from-bottom" data-delay="1s" class="min-w-[240px] max-w-[280px] flex-1 overflow-hidden">
+        <img src="img/53.jpg" alt="wstrząsanie opakowaniem" class="hover:scale-110 transition-transform duration-500">
         <p class="mt-4">Krok 3</p>
         <p class="font-light mb-5">Poczekaj aż szminka wyschnie.</p>
       </div>
-      <div class="min-w-[240px] max-w-[280px] flex-1">
-        <img src="img/54.jpg" alt="wstrząsanie opakowaniem">
+
+      <div data-animation="fade-from-bottom" data-delay="1250ms" class="min-w-[240px] max-w-[280px] flex-1 overflow-hidden">
+        <img src="img/54.jpg" alt="wstrząsanie opakowaniem" class="hover:scale-110 transition-transform duration-500">
         <p class="mt-4">Krok 4</p>
         <p class="font-light mb-5">Ciesz się długotrwałym kolorem
           z połyskiem!</p>
@@ -198,17 +205,17 @@
 
 
   </div>
-  <!--                                                                    xxxxx
+  <!--                                                                      xxxxx
                                                                             x
                                                                             xxxxx
                                                                             x   x
                                                                             xxxxx
 -->
   <div class="mt-20">
-    <p class="h2 mb-10">WYBIERZ SWOJE WYKOŃCZENIE <strong>Z GAMY SUPER STAY</strong></p>
+    <p data-animation="fade-in" data-delay="0s" data-duration="1s" class="h2 mb-10">WYBIERZ SWOJE WYKOŃCZENIE <strong>Z GAMY SUPER STAY</strong></p>
     <div class="flex flex-wrap justify-center  text-white text-center">
 
-      <div class="min-w-[250px] max-w-[350px] flex-1 relative">
+      <div data-animation="fade-from-left"  class="min-w-[250px] max-w-[350px] flex-1 relative">
         <img src="img/61.jpg" alt="MATTE" class="w-full h-[687px] object-cover">
         <div class="absolute bottom-4 left-4 right-4">
           <p class="font-oswald font-bold">SUPER STAY MATTE INK</p>
@@ -217,7 +224,7 @@
         </div>
       </div>
 
-      <div class="min-w-[250px] max-w-[350px] flex-1 relative">
+      <div data-animation="fade-in" data-duration="1000ms" data-delay="0s"  class="min-w-[250px] max-w-[350px] flex-1 relative">
         <img src="img/62.jpg" alt="CRAYON" class="w-full h-[687px] object-cover">
         <div class="absolute bottom-4 left-4 right-4">
           <p class="font-oswald font-bold">SUPER STAY INK CRAYON</p>
@@ -226,7 +233,7 @@
         </div>
       </div>
 
-      <div class="min-w-[250px] max-w-[350px] flex-1 relative">
+      <div data-animation="fade-from-right"  class="min-w-[250px] max-w-[350px] flex-1 relative">
         <img src="img/63.jpg" alt="vinyl" class="w-full h-[687px] object-cover">
         <div class="absolute bottom-4 left-4 right-4">
           <p class="font-oswald font-bold">SUPER STAY VINYL INK</p>
@@ -236,19 +243,19 @@
     </div>
 
   </div>
-  <!--                                                                    xxxxx
+  <!--                                                                      xxxxx
                                                                                 x
                                                                                x
                                                                               x
                                                                              x
 -->
   <div class="w-10/12 mx-auto mt-20">
-    <p class="h2 mb-4"><strong>dopełnij</strong> swój make-up</p>
+    <p data-animation="fade-in" data-delay="0s" data-duration="1s" class="h2 mb-4"><strong>dopełnij</strong> swój make-up</p>
 
     <div class="flex flex-wrap justify-center gap-4 text-center">
 
-      <div class="min-w-[240px] max-w-[300px] flex-1 mt-10">
-        <img src="img/71.jpg" alt="" class="mx-auto min-h-[412px]">
+      <div data-animation="fade-from-left" class="min-w-[240px] max-w-[300px] flex-1 mt-10">
+        <img src="img/71.jpg" alt="" class="mx-auto min-h-[412px] hover:scale-110 transition-transform duration-500">
         <hr class="w-full h-[1px] bg-black border-none mt-8">
         <p class="font-oswald font-bold mt-4 mb-2">Podkład Super Stay Active Wear 30H</p>
         <p class="mb-2 min-h-[4lh]">Supertrwały podkład, który łączy w sobie odporność na ścieranie, pot i wodę oraz wyjątkowo lekką
@@ -257,8 +264,8 @@
         <button>ZOBACZ PRODUKT</button>
       </div>
 
-      <div class="min-w-[240px] max-w-[300px] flex-1 mt-10">
-        <img src="img/72.jpg" alt="" class="mx-auto min-h-[412px]">
+      <div data-animation="fade-in" data-duration="1000ms" data-delay="0s" class="min-w-[240px] max-w-[300px] flex-1 mt-10">
+        <img src="img/72.jpg" alt="" class="mx-auto min-h-[412px] hover:scale-110 transition-transform duration-500">
         <hr class="w-full h-[1px] bg-black border-none mt-8">
         <p class="font-oswald font-bold mt-4 mb-2">Korektor Super Stay Active Wear 30H</p>
         <p class="mb-2 min-h-[4lh]"> Trwałość do 30H**, pełne krycie
@@ -266,8 +273,8 @@
         <button>ZOBACZ PRODUKT</button>
       </div>
 
-      <div class="min-w-[240px] max-w-[300px] flex-1 mt-10">
-        <img src="img/73.jpg" alt="" class="mx-auto min-h-[412px]">
+      <div data-animation="fade-from-right" class="min-w-[240px] max-w-[300px] flex-1 mt-10">
+        <img src="img/73.jpg" alt="" class="mx-auto min-h-[412px] hover:scale-110 transition-transform duration-500">
         <hr class="w-full h-[1px] bg-black border-none mt-8">
         <p class="font-oswald font-bold mt-4 mb-2">Mascara Colossal Curl Bounce</p>
         <p class="mb-2 min-h-[4lh]">Innowacyjna, wegańska formuła, która zapamiętuje ułożenie rzęs i utrzymuje efekt podkręcenia aż
@@ -284,7 +291,7 @@
 
 
   </div>
-  <!--                                                                    xxxxx
+  <!--                                                                      xxxxx
                                                                             x   x
                                                                             xxxxx
                                                                             x   x
