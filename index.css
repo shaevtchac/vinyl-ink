@@ -1,0 +1,99 @@
+@import url(preflight.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  strong {
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  button {
+    @apply bg-black  text-white font-oswald py-3 w-full relative overflow-hidden;
+    
+  }
+  
+  
+  button::after {
+      background: #fff;
+      content: "";
+      height: 155px;
+      left: -75px;
+      opacity: .2;
+      position: absolute;
+      top: -50px;
+      transform: rotate(35deg);
+      transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+      width: 50px;
+      z-index: 10;
+  }
+  button:hover::after {
+      left: 120%;
+      transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+
+  .h2 {
+    @apply text-[2em] font-oswald font-light uppercase text-center;
+  }
+}
+
+@layer utilities {
+}
+
+
+
+
+/* _____________________________________________________ animations ________________________________________________ */
+
+@keyframes fade-from-left {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-from-right {
+  from {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-from-bottom {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-100px);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
